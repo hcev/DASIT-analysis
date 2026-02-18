@@ -1,0 +1,22 @@
+# Ignore run outputs
+251212San/D25-*
+251212San/*_guide_split_BARCODES/
+251212San/slurm_out/
+
+# Ignore large result files
+251212San/*MLE.csv
+251212San/*_RPM
+251212San/*.err
+251212San/*.out
+
+# Ignore generic junk
+.ipynb_checkpoints/
+__pycache__/
+*.pyc
+
+# macOS junk
+.DS_Store
+._*
+
+# VSCode
+.vscode/
